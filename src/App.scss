@@ -1,75 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
-body {
-  background: #20292f;
-  font-family: "Roboto Slab", serif;
-  .top-land {
-    position: relative;
-    width: 80%;
-    max-width: 1100px;
-    margin: 100px auto;
+html {
+  height: 100%;
+  overflow: auto;
 
-    .right-land {
-      border-radius: 10px;
-      display: flex;
-      background: #36454f;
-      color: white;
-      height: 450px;
-      width: 100%;
-      box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
-        0 6px 50px 0 rgba(0, 0, 0, 0.19);
-      .blankRight {
-        width: 60%;
-      }
-      .fullRight {
-        width: 40%;
-        text-align: center;
-        padding-top: 30px;
-        padding-right: 20px;
-        h1 {
-          font-size: 50px;
-        }
-      }
-    }
-    .left-shadow {
-      filter: drop-shadow(12px 6px 10px rgba(0, 0, 0, 0.5));
-      .left-land {
-        position: absolute;
-        height: 700px;
-        width: 60%;
-        background-image: url("./assets/forest.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
-
-        // #avatar {
-        //   margin: 150px auto;
-        //   margin-right: 220px;
-        //   width: 300px;
-        //   height: 300px;
-        //   border-radius: 50%;
-        //   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
-        //     0 6px 50px 0 rgba(0, 0, 0, 0.19);
-        //   background-image: url("https://images.unsplash.com/photo-1548543604-a87c9909abec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-        //   background-size: cover;
-        //   background-position-x: 20px;
-        //   background-position-y: -30px;
-        // }
-      }
-    }
-    .icons {
-      color: white;
-      text-align: right;
-      margin: 0 auto;
-      margin-top: 60px;
-      margin-right: 70px;
-
-      a {
-        padding: 13px;
-        color: white;
-        svg {
-          filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.19));
-        }
-      }
-    }
+  body {
+    background: #20292f;
+    font-family: "Roboto Slab", serif;
+    height: 100%;
   }
 }

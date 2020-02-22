@@ -12,39 +12,35 @@ import "../styles/Portfolio.scss";
 const Portfolio = () => {
   return (
     <div className="project-grid">
-      <div className="square">
+      <div className="back-image"></div>
+      {/* <div className="square">
         <FontAwesomeIcon icon={faPlus} />
       </div>
       <div className="square">TipSease</div>
       <div className="square">SpiderGraph</div>
       <div className="square">Novice</div>
       <div className="square">NASA</div>
-      <div className="square">Rick&Morty</div>
-      {/* <Card
+      <div className="square">Rick&Morty</div> */}
+      <Card
         project="Mr. Beauregard's"
-        url={barber}
         comments="This was one of my first projects where I explored how to use CSS. It showed me how easy it was to create beautiful things"
       />
       <Card
         project="TipSease"
-        url={tipsease}
         comments="I created and designed this landing page and about page. I was pleased with the logo and animations"
       />
       <Card
         project="SpiderGraph"
-        url={spider}
         comments="I worked with a fellow front-end developer and a backend developer to create this react app. Used chartjs and material-ui"
       />
       <Card
         project="1st Personal Website"
-        url={bsher}
         comments="Created this small website using less, HTML5 and CSS3. "
       />
       <Card
         project="NASA Photo of the Day"
-        url={nasa}
         comments="This project pulls data from NASA's Astronomy of the Day API."
-      /> */}
+      />
     </div>
   );
 };
