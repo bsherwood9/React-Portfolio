@@ -21,26 +21,28 @@ const Portfolio = () => {
       <div className="square">Novice</div>
       <div className="square">NASA</div>
       <div className="square">Rick&Morty</div> */}
-      <Card
-        project="Mr. Beauregard's"
-        comments="This was one of my first projects where I explored how to use CSS. It showed me how easy it was to create beautiful things"
-      />
-      <Card
-        project="TipSease"
-        comments="I created and designed this landing page and about page. I was pleased with the logo and animations"
-      />
-      <Card
-        project="SpiderGraph"
-        comments="I worked with a fellow front-end developer and a backend developer to create this react app. Used chartjs and material-ui"
-      />
-      <Card
-        project="1st Personal Website"
-        comments="Created this small website using less, HTML5 and CSS3. "
-      />
-      <Card
-        project="NASA Photo of the Day"
-        comments="This project pulls data from NASA's Astronomy of the Day API."
-      />
+      <div className="card-grid">
+        <Card
+          project="Mr. Beauregard's"
+          comments="This was one of my first projects where I explored how to use CSS. It showed me how easy it was to create beautiful things"
+        />
+        <Card
+          project="TipSease"
+          comments="I created and designed this landing page and about page. I was pleased with the logo and animations"
+        />
+        <Card
+          project="SpiderGraph"
+          comments="I worked with a fellow front-end developer and a backend developer to create this react app. Used chartjs and material-ui"
+        />
+        <Card
+          project="1st Personal Website"
+          comments="Created this small website using less, HTML5 and CSS3. "
+        />
+        <Card
+          project="NASA Photo of the Day"
+          comments="This project pulls data from NASA's Astronomy of the Day API."
+        />
+      </div>
     </div>
   );
 };
