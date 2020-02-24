@@ -6,7 +6,7 @@ const Card = ({ project, url, comments }) => {
     <div className="card">
       <h1>{project}</h1>
       <p>{comments}</p>
-      <img src={url} />
+      {/* <img src={url} /> */}
     </div>
   );
 };

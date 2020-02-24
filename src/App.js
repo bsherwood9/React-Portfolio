@@ -7,11 +7,11 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <div className="App">
-      <Route exact path="/" component={Landing} />
-      <Link to="/portfolio">Next page</Link>
-
-      <Route exact path="/portfolio" component={Portfolio} />
+    <div>
+      <Route path="/" component={Landing} />
+      {/* <Link to="/portfolio">Next page</Link> */}
+      <Route path="/" component={Portfolio} />
+      <About />
     </div>
   );
 }
