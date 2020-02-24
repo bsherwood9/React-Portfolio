@@ -10,8 +10,8 @@ function App() {
     <div>
       <Route path="/" component={Landing} />
       {/* <Link to="/portfolio">Next page</Link> */}
-
       <Route path="/" component={Portfolio} />
+      <About />
     </div>
   );
 }
